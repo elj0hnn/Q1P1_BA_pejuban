@@ -1,0 +1,196 @@
+* { /*this is to indicate margin and padding*/
+    margin: 0;
+    padding: 0;
+}
+
+.page{ /*this is for the background of the pages*/
+    background-image: url(Images/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+.navbar{ /*this is for the navbar(home,studybackground,data,conclusion,our team and reference pages)*/
+    background-color:#324376;
+    margin-top: 1vh;
+    margin-right: 1vw;
+    border-radius: 15%;
+    border: solid rgb(255, 255, 255) 1px;
+    height: 40vh;
+    width: 10vw;
+    float:right;
+}
+
+.logo{ /*this is for the placement of the logo*/
+    align-items: center;
+    margin-top: 2.5vh;
+    margin-left: 2.6vw;
+}
+.box{ /*this is for the boxes inside the navbar*/
+    padding: 25px;
+    display: block;
+}
+
+.banner{ /*this is for the big box inside the pages*/
+    border: 5px dashed #f5dd90;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #586ba4;
+    margin-top: 7vh;
+    margin-left: 4vw;
+    margin-right: 15vw;
+    height: 77vh;
+    width: 81vw;
+    position: fixed;
+    
+}
+.heading{ /*this is for the heading in home page*/
+    padding-top: 5vh;
+    padding-left: 2vw;
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f76c5e;
+}
+
+.conclusionparagraph{ /*this is for the paragraph in conclusion page*/
+    color:#f5dd90;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10vh;
+    font-size: larger;
+}
+.paragraph2{ /*this is for the general paragraphs in every page*/
+    color:#f5dd90;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 2vw;
+    padding-top: 5vh;
+    font-size: larger;
+}
+.footer{ /*this is for the footer*/
+    position: fixed;
+    bottom: 0vh;
+    left: 0vw;
+    background-color:#324376;
+    border: white solid 1px;
+    height: 9vh;
+    width: 100vw;
+}
+.credits{ /*this is for the rights inside the footer*/
+    padding: 10px;
+    margin: 10px;
+    color:#f5dd90;
+    float:left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.links2 a{ /*this is for the socmed links*/
+    float:right;
+    text-decoration: none;
+    margin: 10px;
+    padding: 1px;
+    opacity: 1;
+    transition: .4s;
+    height:5vh;
+    width: 5vw;
+}
+
+.links2 a:hover{opacity: .25; transition: .4s;} /*this is for the transition when you click the socmed links*/
+
+.circle{ /*this is to get a circular shape (used for logo)*/
+    border-radius: 75%;
+    border:white solid 1px;
+    padding: 3px;
+    
+}
+.square{ /*this is for the buttons (yellow)*/
+    border:#324376 solid 1px;
+    padding: 3px;
+    background-color: #f5dd90;
+}
+.square2{ /*this is for the buttons (orange)*/
+    border:#324376 solid 1px;
+    padding: 3px;
+    background-color: #f68e5f;
+}
+.square3{ /*this is for the buttons (reddish-orange)*/
+    border:#324376 solid 1px;
+    padding: 3px;
+    background-color: #f76c5e;
+}
+.square4{ /*this is for the buttons (dark blue)*/
+    border:#324376 solid 1px;
+    padding: 3px;
+    background-color: #586ba4;
+}
+.orange{ /*this is used to make fonts orange with times new roman text (mainly used for heading)*/
+    color:#f68e5f;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:700;
+    font-size:larger;
+}
+.bold{ /*this is for the bolded text, in conclusion page*/
+    color: rgba(0, 0, 0, 0.671);
+}
+.marker{ /*this is for the study background button with marker symbol, in home page*/
+    padding-top: 5vh;
+}
+
+.QLV{ /*this is for the qualitative variables box, in study background page*/
+    border: black solid 1px;
+    margin-right: 50vw;
+    margin-left: 5vw;
+    height: 25vh;
+    width: 30vw;
+    padding: 10px;
+    background-color: #324376;
+    position:absolute;
+    float:right;
+}
+.QNV{ /*this is for the quantitative variables box, in study background page*/
+    border: black solid 1px;
+    margin-right: 10vw;
+    margin-left: 40vw;
+    height: 25vh;
+    width: 30vw;
+    padding: 10px;
+    background-color: #324376;
+    position:absolute;
+    float: left;
+    
+}
+.tabledisplay{ /*this is to display the tables in data page*/
+    display: inline-block;
+}
+.box2{ /*this is the box that contains the qualitative varibles fdt, in data page*/
+    background-color: #324376;
+    border: solid 1px #324376;
+    padding: 0.5vw;
+    display: flex;
+    margin-left: 2.65vw;
+}
+.box3{ /*this is the box that contains the quantitative fdt, in data page */
+    background-color: #324376;
+    margin-top: 2.5vh;
+    border: solid 1px #324376;
+    padding: 0.5vw;
+    display: inline-flex;
+    margin-left: 15.5vw;
+}
+.box4{ /*this is the box that contains the members, in our team page*/
+    display: inline-block;
+    margin-top: 10vh;
+    border:#324376 solid 1px;
+    background-color: #324376;
+    padding: 2.5vw;
+}
+.members{ /*this is for the members, in our team page*/
+    display: inline-block;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+.hdisclaimer{ /*this is for the small disclaimer text for hover, in data page*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: #f5dd90;
+
+}
